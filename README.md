@@ -32,6 +32,8 @@ This README file provides a step-by-step guide for creating and configuring a Vi
      - **IPv6 CIDR block:** (Optional) Choose if you need IPv6 support.
      - **Tenancy:** Default or Dedicated.
    - Click **"Create VPC"**.
+  
+     ![image](https://github.com/user-attachments/assets/7b0565c8-1f28-459d-96be-458c72916560)
 
 ## Configuring Subnets
 
@@ -49,6 +51,9 @@ This README file provides a step-by-step guide for creating and configuring a Vi
      - **Public Subnet:** Ensure this subnet will have access to the internet (i.e., it will have a route to the internet via an Internet Gateway).
      - **Private Subnet:** No direct access to the internet.
    - Click **"Create"**.
+  
+     ![image](https://github.com/user-attachments/assets/480fe683-8daa-4d41-9526-44169243fc18)
+
 
 ## Setting Up Internet Gateway
 
@@ -65,6 +70,11 @@ This README file provides a step-by-step guide for creating and configuring a Vi
    - Click on **"Actions"** and choose **"Attach to VPC"**.
    - Select the VPC you created earlier.
    - Click **"Attach"**.
+  
+After Attaching the internet gateway to the VPC that you have created, the console should look like this.
+
+![image](https://github.com/user-attachments/assets/54966fca-154a-4e97-84d9-0e50a9eb4d4a)
+
 
 2. **Update Route Tables:**
    - Navigate to **"Route Tables"** on the left navigation pane.
